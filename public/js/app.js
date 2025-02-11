@@ -1,6 +1,6 @@
-// <!-- Design and develop by Priyessh rai  -->
-// <!-- my linkedin 👉 "https://www.linkedin.com/in/priyesh-rai/" -->
-// <!-- contact me here ☝ -->
+// Design and develop by Priyessh rai
+// my linkedin 👉 "https://www.linkedin.com/in/priyesh-rai/"
+// contact me here ☝
 
 document.addEventListener("DOMContentLoaded", function () {
   const links = document.querySelectorAll(".links-wraper li a");
@@ -43,14 +43,14 @@ document.addEventListener("DOMContentLoaded", function () {
   const overlay = document.querySelector(".overlay");
   const mobileMenu = document.querySelector(".links-container");
   const body = document.body;
-  const footer = document.querySelector(".base-footer span")
+  const footer = document.querySelector(".base-footer span");
 
   btn_container.addEventListener("click", function () {
-    classAdder()
+    classAdder();
   });
 
   overlay.addEventListener("click", function () {
-    classRemover()
+    classRemover();
   });
 
   function classAdder() {
@@ -76,5 +76,21 @@ document.addEventListener("DOMContentLoaded", function () {
   }
 
   footer.innerHTML = `&copy; ${new Date().getFullYear()} Shree Bhawani Paper Mills. All rights reserved. Developed by
-          <a href="https://wizards.co.in/">Wizards.</a>`
+          <a href="https://wizards.co.in/">Wizards.</a>`;
+
+  function addComment(position) {
+    const commentText = `Design and develop by Priyesh Rai 
+      LinkedIn 👉 https://www.linkedin.com/in/priyesh-rai/ 
+      Contact me here ☝`;
+
+    const commentNode = document.createComment(commentText);
+
+    if (position === "top") {
+      document.documentElement.prepend(commentNode);
+    } else if (position === "bottom") {
+      document.body.appendChild(commentNode);
+    }
+  }
+  addComment("top");
+  window.onload = () => addComment("bottom");
 });
