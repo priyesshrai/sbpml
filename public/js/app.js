@@ -43,6 +43,7 @@ document.addEventListener("DOMContentLoaded", function () {
   const overlay = document.querySelector(".overlay");
   const mobileMenu = document.querySelector(".links-container");
   const body = document.body;
+  const footer = document.querySelector(".base-footer span")
 
   btn_container.addEventListener("click", function () {
     classAdder()
@@ -73,4 +74,7 @@ document.addEventListener("DOMContentLoaded", function () {
       btn.classList.remove("active-btn");
     });
   }
+
+  footer.innerHTML = `&copy; ${new Date().getFullYear()} Shree Bhawani Paper Mills. All rights reserved. Developed by
+          <a href="https://wizards.co.in/">Wizards.</a>`
 });
