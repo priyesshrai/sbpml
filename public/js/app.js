@@ -79,9 +79,7 @@ document.addEventListener("DOMContentLoaded", function () {
           <a href="https://wizards.co.in/">Wizards.</a>`;
 
   function addComment(position) {
-    const commentText = `Design and develop by Priyesh Rai 
-      LinkedIn 👉 https://www.linkedin.com/in/priyesh-rai/ 
-      Contact me here ☝`;
+    const commentText = `Priyesh Rai LinkedIn 👉 https://www.linkedin.com/in/priyesh-rai/`;
 
     const commentNode = document.createComment(commentText);
 
