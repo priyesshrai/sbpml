@@ -221,7 +221,7 @@ body {
     width: 100%;
     margin-top: 30px;
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
     gap: 20px;
 
     .card-body {
@@ -584,24 +584,23 @@ footer {
     align-items: center;
     justify-content: center;
 
-    .menu-logo{
+    .menu-logo {
       position: relative;
       width: 100%;
 
-      img{
+      img {
         height: 30px;
-
       }
-      a{
+      a {
         text-decoration: none;
         color: var(--dark-color);
       }
     }
-    .menu-social{
+    .menu-social {
       position: relative;
       width: 100%;
 
-      .social-icon-container{
+      .social-icon-container {
         position: relative;
         width: 100%;
         display: flex;
@@ -609,7 +608,7 @@ footer {
         align-items: center;
         justify-content: center;
 
-        a{
+        a {
           text-decoration: none;
           color: var(--dark-color);
           font-size: 25px;
@@ -642,7 +641,7 @@ footer {
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  gap: 8px;
+  gap: 6px;
   cursor: pointer;
   display: none;
 
@@ -699,7 +698,7 @@ footer {
     display: flex;
     z-index: 999;
   }
-  .menu-logo-container{
+  .menu-logo-container {
     display: block;
   }
   .header .nav .links-container {
@@ -772,6 +771,12 @@ footer {
   .bg-card {
     margin: 45px 0;
     justify-content: center;
+  }
+  .desc-container .desc-content .description p {
+    word-spacing: 3px;
+  }
+  .cta-container .cta-title {
+    word-spacing: 1px;
   }
 }
 
@@ -850,6 +855,12 @@ footer {
   .base-footer {
     padding: 0 20px 15px 20px;
   }
+  .cta-container .cta-btn-container a {
+    padding: 7px 20px;
+  }
+  .banner-card p {
+    word-spacing: 0;
+  }
 }
 
 @media (max-width: 400px) {
@@ -877,7 +888,7 @@ footer {
     margin-top: 25px;
   }
   .product-container .product-card-container {
-    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    /* grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); */
     gap: 10px;
   }
   .product-container .product-card-container .card-body .card-title {
