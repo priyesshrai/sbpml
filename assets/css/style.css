@@ -484,6 +484,12 @@ footer {
         }
       }
 
+      .footer-heading{
+        font-size: 1.5rem;
+        font-weight: 600;
+        color: var(--dark-color);
+      }
+
       .social-icon-container {
         position: relative;
         margin-top: 30px;
