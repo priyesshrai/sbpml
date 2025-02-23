@@ -191,6 +191,10 @@ body {
     max-width: 54rem;
     font-weight: 600;
   }
+  h2{
+    font-size: 1.7rem;
+    font-weight: 600;
+  }
   h3 {
     font-size: 2.5rem;
     font-weight: 600;
@@ -207,6 +211,14 @@ body {
     line-height: 1.1;
     font-size: 22px;
     color: black;
+  }
+  ul li{
+    list-style:disc;
+
+    span{
+      font-weight: 600;
+      font-size: large;
+    }
   }
 }
 
@@ -688,6 +700,13 @@ footer {
   transition-delay: 0.3s;
   right: 0;
 }
+
+.about-container{
+  position: relative;
+  width: 100%;
+
+}
+
 
 @media (max-width: 1268px) {
   .header .nav {
