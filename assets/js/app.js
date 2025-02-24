@@ -5,7 +5,8 @@
 document.addEventListener("DOMContentLoaded", function () {
   const links = document.querySelectorAll(".links-wraper li a");
   const currentPath = window.location.pathname;
-
+  console.log(currentPath);
+  
   links.forEach((link) => {
     if (link.getAttribute("href") === currentPath) {
       link.classList.add("active");
