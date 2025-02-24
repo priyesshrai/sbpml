@@ -780,7 +780,7 @@ footer {
 
 .drop-down-container {
   position: absolute;
-  background-color: #ffffff;
+  background-color: #eeeeee;
   left: 0%;
   margin: 0;
   /* padding: 10px 20px; */
@@ -870,6 +870,7 @@ footer {
     padding: 50px 90px;
     height: 100vh;
     transition: all 0.3s linear;
+    overflow-y: scroll;
 
     .links-wraper {
       flex-direction: column;
@@ -885,6 +886,16 @@ footer {
       }
     }
   }
+  .drop-down-container{
+    position: relative;
+  }
+}
+
+.form-container{
+  position: relative;
+  width: 100%;
+  padding: 20px;
+  
 }
 
 @media (max-width: 902px) {

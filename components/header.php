@@ -43,7 +43,7 @@
               </li>
             </ul>
 
-            <div class="menu-logo-container">
+            <!-- <div class="menu-logo-container">
               <div class="menu-logo-wraper">
                 <div class="menu-logo">
                   <img src="assets/media/images/logo/logo.png" alt="logo" />
@@ -70,7 +70,7 @@
                   </div>
                 </div>
               </div>
-            </div>
+            </div> -->
           </div>
           <div class="menu-btn-container">
             <span class="menu-btn"></span>
