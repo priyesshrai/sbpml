@@ -33,70 +33,7 @@
   </head>
   <body>
     <main class="main">
-      <header class="header">
-        <nav class="nav">
-          <div class="logo-container">
-            <img src="assets/media/images/logo/logo.png" alt="logo" />
-            <a href="/">
-              <span>Shree Bhawani Paper Mills Ltd.</span>
-            </a>
-          </div>
-          <div class="links-container">
-            <ul class="links-wraper">
-              <li>
-                <a href="/index.html">Home</a>
-              </li>
-              <li>
-                <a href="/about.html">About</a>
-              </li>
-              <li>
-                <a href="#">Products</a>
-              </li>
-              <li>
-                <a href="/sustainability.html">Sustainability</a>
-              </li>
-              <li>
-                <a href="/contact-us" class="link-btn"> Contact Us </a>
-              </li>
-            </ul>
-
-            <div class="menu-logo-container">
-              <div class="menu-logo-wraper">
-                <div class="menu-logo">
-                  <img src="assets/media/images/logo/logo.png" alt="logo" />
-                  <a href="/">
-                    <span>Shree Bhawani Paper Mills Ltd.</span>
-                  </a>
-                </div>
-                <div class="menu-social">
-                  <div class="social-icon-container">
-                    <a href="#">
-                      <i class="hgi-stroke hgi-facebook-02"></i>
-                    </a>
-
-                    <a href="#">
-                      <i class="hgi-stroke hgi-linkedin-02"></i>
-                    </a>
-
-                    <a href="#">
-                      <i class="hgi-stroke hgi-youtube"></i>
-                    </a>
-                    <a href="#">
-                      <i class="hgi-stroke hgi-instagram"></i>
-                    </a>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="menu-btn-container">
-            <span class="menu-btn"></span>
-            <span class="menu-btn"></span>
-            <span class="menu-btn"></span>
-          </div>
-          <div class="overlay"></div>
-        </nav>
-      </header>
+      <?php require_once('components/header.php'); ?>
 
       <section class="section">
         <div class="section-wraper">
@@ -201,51 +138,7 @@
         </div>
       </section>
 
-      <footer>
-        <div class="footer-wraper">
-          <div class="main-container">
-            <div class="footer-heading">
-              <span>Get in touch with us.</span>
-            </div>
-            <div class="foot-container">
-              <p><i class="hgi-stroke hgi-mail-01"></i></p>
-              -
-              <span>info@shreebhawani.one</span>
-            </div>
-
-            <div class="foot-container">
-              <p><i class="hgi-stroke hgi-call-02"></i></p>
-              -
-              <span>+91 9569835925</span>
-            </div>
-          </div>
-          <div class="sec-wraper">
-            <ul>
-              <li><a href="#"> About Us </a></li>
-              <li><a href="#"> Contact Us</a></li>
-              <li><a href="#"> Sustainability</a></li>
-            </ul>
-          </div>
-          <div class="sec-wraper">
-            <ul>
-              <li><a href="#"> Notebook </a></li>
-              <li><a href="#"> Newsprint Paper </a></li>
-              <li><a href="#"> Kraft Paper </a></li>
-            </ul>
-          </div>
-          <div class="sec-wraper">
-            <ul>
-              <li><a href="#"> Poster Paper</a></li>
-              <li><a href="#"> Tissue Paper </a></li>
-              <li><a href="#"> Copier Paper </a></li>
-            </ul>
-          </div>
-        </div>
-      </footer>
-
-      <div class="base-footer">
-        <span></span>
-      </div>
+      <?php require_once('components/footer.php'); ?>
     </main>
 
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
