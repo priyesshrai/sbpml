@@ -2,44 +2,44 @@
         <nav class="nav">
           <div class="logo-container">
             <img src="assets/media/images/logo/logo.png" alt="logo" />
-            <a href="index.php">
+            <a href="/">
               <span>Shree Bhawani Paper Mills Ltd.</span>
             </a>
           </div>
           <div class="links-container">
             <ul class="links-wraper">
               <li>
-                <a href="index.php">Home</a>
+                <a href="/">Home</a>
               </li>
               <li>
-                <a href="about.php">About</a>
+                <a href="/about.php">About</a>
               </li>
               <li class="drop-down">
                 <a href="#">Products</a>
 
                 <ul class="drop-down-container">
-                  <li><a href="notebook.php"> Notebook </a></li>
-                  <li><a href="newsprint.php"> Newsprint </a></li>
-                  <li><a href="kraft-paper.php"> Kraft Paper </a></li>
-                  <li><a href="copier-paper.php"> Copier Paper </a></li>
-                  <li><a href="writing-and-printing-grades.php"> Writing & Printing Grades </a></li>
-                  <li><a href="tissue-paper.php"> Tissue Paper </a></li>
-                  <li><a href="poster-paper.php"> Poster Paper </a></li>
-                  <li><a href="cotated-art-paper.php"> Cotated Art Paper </a></li>
-                  <li><a href="sublimation-paper.php"> Sublimation Paper </a></li>
-                  <li><a href="parchment-paper.php"> Parchment Paper </a></li>
-                  <li><a href="cupstock-paper.php"> Cupstock Paper </a></li>
-                  <li><a href="coloured-print-paper.php"> Coloured Print Paper </a></li>
-                  <li><a href="bagasse-pulp.php"> Bagasse Pulp Moulded Tableware </a></li>
-                  <li><a href="paper-takeaway-boxes.php"> Paper Takeaway Boxes </a></li>
-                  <li><a href="electrical-insulation-paper.php"> Electrical Insulation Paper </a></li>
+                  <li><a href="/notebook.php"> Notebook </a></li>
+                  <li><a href="/newsprint.php"> Newsprint </a></li>
+                  <li><a href="/kraft-paper.php"> Kraft Paper </a></li>
+                  <li><a href="/copier-paper.php"> Copier Paper </a></li>
+                  <li><a href="/writing-and-printing-grades.php"> Writing & Printing Grades </a></li>
+                  <li><a href="/tissue-paper.php"> Tissue Paper </a></li>
+                  <li><a href="/poster-paper.php"> Poster Paper </a></li>
+                  <li><a href="/cotated-art-paper.php"> Cotated Art Paper </a></li>
+                  <li><a href="/sublimation-paper.php"> Sublimation Paper </a></li>
+                  <li><a href="/parchment-paper.php"> Parchment Paper </a></li>
+                  <li><a href="/cupstock-paper.php"> Cupstock Paper </a></li>
+                  <li><a href="/coloured-print-paper.php"> Coloured Print Paper </a></li>
+                  <li><a href="/bagasse-pulp.php"> Bagasse Pulp Moulded Tableware </a></li>
+                  <li><a href="/paper-takeaway-boxes.php"> Paper Takeaway Boxes </a></li>
+                  <li><a href="/electrical-insulation-paper.php"> Electrical Insulation Paper </a></li>
                 </ul>
               </li>
               <li>
-                <a href="sustainability.php">Sustainability</a>
+                <a href="/sustainability.php">Sustainability</a>
               </li>
               <li>
-                <a href="contact-us.php" class="link-btn"> Contact Us </a>
+                <a href="/contact-us.php" class="link-btn"> Contact Us </a>
               </li>
             </ul>
 

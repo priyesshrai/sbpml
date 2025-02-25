@@ -37,23 +37,23 @@
           </div>
           <div class="sec-wraper">
             <ul>
-              <li><a href="about.php"> About Us </a></li>
-              <li><a href="contact-us.php"> Contact Us</a></li>
-              <li><a href="sustainability.php"> Sustainability</a></li>
+              <li><a href="/about.php"> About Us </a></li>
+              <li><a href="/contact-us.php"> Contact Us</a></li>
+              <li><a href="/sustainability.php"> Sustainability</a></li>
             </ul>
           </div>
           <div class="sec-wraper">
             <ul>
-              <li><a href="notebook.php"> Notebook </a></li>
-              <li><a href="newsprint.php"> Newsprint Paper </a></li>
-              <li><a href="kraft-paper.php"> Kraft Paper </a></li>
+              <li><a href="/notebook.php"> Notebook </a></li>
+              <li><a href="/newsprint.php"> Newsprint Paper </a></li>
+              <li><a href="/kraft-paper.php"> Kraft Paper </a></li>
             </ul>
           </div>
           <div class="sec-wraper">
             <ul>
-              <li><a href="poster-paper.php"> Poster Paper</a></li>
-              <li><a href="tissue-paper.php"> Tissue Paper </a></li>
-              <li><a href="copier-paper.php"> Copier Paper </a></li>
+              <li><a href="/poster-paper.php"> Poster Paper</a></li>
+              <li><a href="/tissue-paper.php"> Tissue Paper </a></li>
+              <li><a href="/copier-paper.php"> Copier Paper </a></li>
             </ul>
           </div>
         </div>

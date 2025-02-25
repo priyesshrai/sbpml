@@ -136,7 +136,7 @@
             </div>
           </div>
           <a
-            href="contact-us.php"
+            href="/contact-us.php"
             class="btn btn-dark mt-5 d-block rounded-5"
             style="width: max-content"
           >
